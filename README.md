@@ -25,6 +25,8 @@ Description: Tried out same vulnerability on all three site, finally worked on b
 
 In the above gif, I logged into admin on blue site on opera browser, and then found the session id once logged into admin.
 
+
+
 <img src="https://github.com/ardwaino/Week-9-Pentesting/blob/c73e31701976483041ee0fb837802a7032e88b28/Session_Hijack_Part1.gif">
 
 Now, I take the previously found admin session id and use the same change session ID tool in firefox and change the normal user's session id to the logged in user's. I click the log in button, and voila, we are in.
@@ -40,6 +42,8 @@ Description: We were given an XSS script in the assignment by Codepath, we need 
 
 In the above gif, I put in the XSS code given into the contact along with a set a name and email including a portion of my name. As well as changing the given code to say Shreyass found the XSS rather than Mallory. I submit this feedback on the user-end in Firefox.
 
+
+
 <img src="https://github.com/ardwaino/Week-9-Pentesting/blob/ff81952687cc49643b612b93f44df2621631dbec/Cross_Site_Scripting_Part2.gif">
 
 I now log in to the site and navigate to the feedback portion of the site. I get alerts from previous exploits of the vulnerability as well as mine, that says Shreyass found the XSS.
@@ -54,6 +58,8 @@ Description: Any page that has a list of things, addresses, names, phone-numbers
 <img src="https://github.com/ardwaino/Week-9-Pentesting/blob/ff81952687cc49643b612b93f44df2621631dbec/IDOR_Part1.gif">
 
 In the logged in side, I navigate to the salespeople tab and check for users that are not visible/public to the general user, codepath kindly pointed out that testy mctesterson was not public yet.
+
+
 
 <img src="https://github.com/ardwaino/Week-9-Pentesting/blob/ff81952687cc49643b612b93f44df2621631dbec/IDOR_Part2.gif">
 
