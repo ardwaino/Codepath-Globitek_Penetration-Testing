@@ -1,4 +1,4 @@
-# Project 8 - Pentesting Live Targets
+# Globitek - Pentesting Live Targets
 
 Time spent: **5** hours spent in total
 
